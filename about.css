@@ -1,0 +1,66 @@
+body{
+    background-color:black;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(255,255,255,.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper h1,.wrapper h3 {
+    color: white;
+    text-align: center;
+}
+
+.wrapper h1 {
+    
+    margin-bottom: 20px;
+    padding-top:20px ;
+}
+
+.wrapper h3 {
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.wrapper .row {
+    margin-top: 180px; 
+}
+
+.wrapper .col-lg-6 {
+    padding: 20px;
+}
+
+.wrapper .exe, .wrapper .edu {
+    margin-bottom: 40px;
+}
+
+.wrapper dl {
+    margin: 0;
+}
+
+.wrapper dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.wrapper dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.wrapper p{
+
+    font-size: 1rem;
+    line-height: 2rem;
+}

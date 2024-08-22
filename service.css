@@ -1,0 +1,76 @@
+body{
+    background-color:black;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(255,255,255,.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.wrapper {
+    margin-top: 5vw;
+}
+.wrapper .ser-1,.wrapper .ser-2,.wrapper .ser-3{
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue ;
+}
+.wrapper .ser-1{
+    background-image: url(images/web-development.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 20px 30px;
+    border-radius: 10px;
+}
+.wrapper .ser-2{
+    background-image: url("images/ml.jpg");
+    background-position: right;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 20px 30px;
+}
+.wrapper .ser-3{
+    background-image: url("images/skill_training.jpg");
+    background-position: right;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 20px 30px;
+}
+
+/* Add basic styles for the services */
+.ser-1, .ser-2, .ser-3 {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Animation on hover */
+.ser-1:hover, .ser-2:hover, .ser-3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Main hover animation */
+main:hover {
+    animation: pulse 1s  1 ;
+}
+
+/* Pulse keyframes for main section */
+@keyframes pulse {
+    0% {
+    
+        transform: scale(1);
+    }
+    50% {
+     
+        transform: scale(1.02);
+    }
+    100% {
+        
+        transform: scale(1);
+    }
+}
+
+
